@@ -1,0 +1,106 @@
+body {
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(255, 255, 255); 
+    margin: 0;
+    padding: 0;
+}
+
+/**********/
+/* HEADER */
+/**********/
+
+/* navigation bar */
+
+#header-nav {
+    background-color: #04abbf;
+    border: none;
+    border-radius: 0;
+    border-bottom-color: rgb(2,99,112); 
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-width: 2px;
+}
+
+/* company name */
+
+.navbar-brand h1 { 
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    line-height: .75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none
+}
+
+/* menu button and drop-down */
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid rgb(2,99,112);
+}
+
+#collapsable-nav {
+    border: 0;
+}
+
+#nav-list {
+    text-transform: capitalize;
+    background-color: rgb(0,220,138);
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav-list > li {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgb(2,99,112);
+}
+
+#nav-list > li:first-child {
+    border-top-width: 2px;
+}
+
+
+/****************/
+/* MAIN CONTENT */
+/****************/
+
+/* "our menu" header */
+
+.container h2 {
+    font-size: 20px;
+    color: #04abbf;
+    text-transform: capitalize;
+}
+
+/* long read section */
+
+.content {
+    background-color: #04abbf;
+    margin: 20px;
+}
+
+.container .content h3 {
+    font-size: 95%;
+    color: #FFFFFF;
+    padding: 10px;
+    text-transform: capitalize
+}
+
+.container .content p {
+    padding: 10px;
+    font-size: 80%;
+    color: #FFFFFF;
+}
